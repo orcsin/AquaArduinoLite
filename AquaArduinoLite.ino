@@ -85,6 +85,7 @@ void checkTimeCorrection(){
 		timeCorrection(timeDown, _year, _month, _day, _hour);
 	}
 }
+//********************** End ************************//
 
 void timeCorrection(bool _correction, int _year, byte _month, byte _day, byte _hour){
 	if(_correction){
